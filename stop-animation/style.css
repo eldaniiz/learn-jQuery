@@ -1,0 +1,32 @@
+.content-header {
+    width: 250px;
+    height: 30px;
+    border-radius: 4%;
+    background-color: blue;
+    padding: 20px;
+    margin: 80px;
+    color: white;
+}
+
+.stop-animate {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 9px blue;
+}
+
+.stop-animate:hover {background-color: #008bf6
+}
+
+.stop-animate:active {
+    background-color: blue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
